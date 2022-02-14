@@ -74,7 +74,7 @@ public class InternetTile extends SecureQSTile<SignalState> {
     private final AccessPointController mAccessPointController;
     private final DataUsageController mDataController;
     // The last updated tile state, 0: mobile, 1: wifi, 2: ethernet.
-    private int mLastTileState = -1;
+    private int mLastTileState = 1;
 
     protected final InternetSignalCallback mSignalCallback = new InternetSignalCallback();
     private final InternetDialogFactory mInternetDialogFactory;
